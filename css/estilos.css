@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+}
+/*
+header{
+    background-image: url(../img/WhatsApp\ Image1.jpg);
+    padding: 80px;
+
+}
+*/
+nav ul li a:hover{
+    color: azure;
+}
+
+.divLogo{
+    background-image: url(../img/WhatsApp\ Image1.jpg);
+    padding: 100;
+}
+.nav{
+    text-decoration: none;
+   background-color: rgb(97, 156, 89);
+    padding: 0px;
+    list-style: none;
+    position: relative;
+    margin-top: 0%;
+    margin-bottom: 0;
+    text-align: center;
+   
+
+    
+    
+}
+.nav li{
+    list-style: none;
+    padding: 10px;
+    font-size: 50px;
+
+
+}
+.computadoras{
+    text-align: center;
+}
+h1{
+    border-style: solid 20px;
+}
+ h2{
+   
+    padding: 20px;
+    text-align: center;
+ }
+
+ ul{
+    list-style: none;
+    margin: 40px
+    ;
+
+ }
+ 
+ li{
+    display: inline-block; 
+    margin-bottom: 0px;
+   
+   
+ }
+ p{
+    background-color: aquamarine;
+ }
+ 
+form{
+    background-color: rgb(49, 117, 49);
+    color:rgb(5, 3, 8);
+}
+article{
+    padding: 80px;
+    background-image: url(../img/prueba\ tecnologia.jpg);
+
+}
+footer{
+    background-image: url(../img/redesSociales.jpg);
+    padding: 40px;
+}
+.novedades{
+    background-color: rgb(42, 140, 173);
+    text-align: center;
+
+}
+
+/*
+.flex-container{
+    background-color: antiquewhite;
+    padding: 30px;
+    display: flex;
+
+}
+.flex-container div{
+    background-color: blueviolet;
+    padding: 20px;
+    margin: 10;
+
+}
+/*
