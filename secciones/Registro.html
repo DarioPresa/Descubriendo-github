@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/estilos.css">
     <title>Rpm Tecnologia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
 </head>
 <body>
@@ -30,34 +31,50 @@
     </header>
 
 <article>
-    <form>
-        <label for="Nombre Y Apellido">Ingrese Nombre y Apellido</label>
-        <input type="text"name="Nombre y Apellido">
-        <br>
-        <label for="edad">Ingrese su Edad</label>
-        <input type="number"name="edad">
-        <br>
-        
-        <br>
-        
-        <div>Hombre</div>
-        <input type="radio" name="sexo" value="Hombre">
-        <div>Mujer</div>
-        <input type="radio" name="sexo" value="Mujer">
-        <br>
-        <label for="Ingrese sus Consultas">Ingrese sus consultas</label>
-        <br>
-
-
-        <textarea name="Ingrese sus Consultas" id="" cols="40" rows="05"></textarea>
-        <br>
-        <input type="submit"value="enviar info">
-        <input type="reset"value="borrar info">
-        
-        <br>
-
- 
-    </form>
+    <form class="row g-3">
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4">
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">Contraseña</label>
+          <input type="password" class="form-control" id="inputPassword4">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Direccion</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="direcion">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress2" class="form-label">Direccion 2</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartmento, estudio, u oficina">
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">Ciudad</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">Localidad</label>
+          <select id="inputState" class="form-select">
+            <option selected></option>
+            <option>...</option>
+          </select>
+        </div>
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label">Codigo Postal</label>
+          <input type="text" class="form-control" id="inputZip">
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              click aqui
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+      </form>
  
 </article>
 </body>
