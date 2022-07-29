@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{
+/*body{
     background-color: antiquewhite;
 }
 /*
@@ -134,3 +134,13 @@ body{
 .grid-items:hover{
     transform: scale(1.5);
 }
+
+.carousel-item {
+    height: 65vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
