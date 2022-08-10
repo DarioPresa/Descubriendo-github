@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import "mixin";
+@import "navegacion";
+@import "variables";
+@import "grids";
+@import "formulario";
+@import "carrusel";
+@import "footer";
+.font{
+    background-image: url(../img/prueba\ tecnologia.jpg);
+}
+article{
+    padding: 80px;
+    background-image: url(../img/prueba\ tecnologia.jpg);
+
+}
+footer{
+    background-image: url(../img/redesSociales.jpg);
+    padding: 40px;
+}
+.novedades{
+    background-color: rgb(42, 140, 173);
+    text-align: center;
+
+}
+p{
+    background-color: aquamarine;
+ }
+

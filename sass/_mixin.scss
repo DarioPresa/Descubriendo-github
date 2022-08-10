@@ -1,0 +1,23 @@
+@mixin card ($fondo){
+    background-color: $fondo;
+    text-align: center;
+    padding: 2rem;
+ 
+    
+}
+.card-1 {
+    @include card(aqua)
+   
+
+}
+.card-2{
+    @include card(rgb(137, 137, 156))
+}
+.card-3{
+
+   @include card(blueviolet)
+}
+.card-4{
+    @include card(rgb(144, 160, 228))
+    
+}
